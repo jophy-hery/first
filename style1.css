@@ -1,0 +1,41 @@
+.heading-appear {
+    animation: fadeIn 2s ease-in-out both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.pastoral-heading {
+    animation: fadePastor 2s ease-in-out both;
+}
+
+@keyframes fadePastor {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.pastor-image {
+    animation: imageAppear 1.8s ease-out both;
+}
+
+@keyframes imageAppear {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

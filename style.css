@@ -1,0 +1,128 @@
+.navbar-nav .nav-link:hover,
+.navbar .btn:hover,
+.plan-btn:hover,
+.detail-btn:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nav-link:hover {
+    color: gray !important;
+}
+
+/* .navbar-nav{
+    margin-top: 25px !important;
+} */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+p {
+    margin-top: 0 !important;
+}
+
+.navbar-nav .nav-item {
+    position: static !important;
+    top: auto !important;
+}
+
+.navbar-nav {
+    margin-top: 25px !important;
+    align-items: center !important;
+}
+
+.float-up {
+    animation: floatUp 1.5s ease-out both;
+}
+
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        translate: 0 100px;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+.event-img {
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.event-item:hover .event-img {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+/* Left testimonial */
+#testimonials .slide-from-left {
+    animation: testimonialLeft 1.2s ease-out both;
+}
+
+@keyframes testimonialLeft {
+    from {
+        opacity: 0;
+        translate: -100px 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+/* Right testimonial */
+#testimonials .slide-from-right {
+    animation: testimonialRight 1.2s ease-out both;
+}
+
+@keyframes testimonialRight {
+    from {
+        opacity: 0;
+        translate: 100px 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+/* Bottom testimonial */
+#testimonials .slide-from-bottom {
+    animation: testimonialBottom 1.2s ease-out both;
+}
+
+@keyframes testimonialBottom {
+    from {
+        opacity: 0;
+        translate: 0 100px;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+.next-page {
+    padding: 0;
+}
+
+.message-box {
+    background-color: #E8DFCC;
+    min-height: 220px;
+    border: none;
+}
+
+.line-under :hover {
+    text-decoration: underline;
+}
+.navbar .nav-link.active{
+    text-decoration: underline !important;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
